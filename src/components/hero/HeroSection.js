@@ -16,6 +16,7 @@ function HeroSection() {
   const imagens = [cafe, capuccino, mousse, ovomaltine, pedaco_chocolate, torta_pote, torta_suspiro];
   const [indiceAtual, setIndiceAtual] = useState(0);
 
+  //hero section image loop
   useEffect(() => {
     const intervalo = setInterval(() => {
       setIndiceAtual((indiceAnterior) => (indiceAnterior + 1) % imagens.length);
@@ -34,7 +35,7 @@ function HeroSection() {
         />
         <div className="carrossel-overlay"></div>
       </div>
-    <Button as={"a"} className="button-comprar" href="https://kehtorta.goomer.app/" size="lg" colorScheme="orange" leftIcon={<FaShoppingCart />}>COMPRE AGORA!</Button>
+    <Button as={"a"} className="button-comprar" href="https://kehtorta.goomer.app/" size="lg" colorScheme="orange" leftIcon={<FaShoppingCart />}>FAÇA O SEU PEDIDO!</Button>
     </section>
   );
 }
