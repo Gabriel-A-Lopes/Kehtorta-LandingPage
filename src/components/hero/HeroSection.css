@@ -31,25 +31,16 @@
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-/* Container do botão */
-.button-container {
-  text-align: center; /* Centraliza o botão */
-  margin-top: 20px; /* Adiciona um espaço acima do botão */
-}
-
-/* Estilização do botão em si */
-.carousel-link-button {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #007bff; /* Cor de fundo */
-  color: #fff; /* Cor do texto */
-  text-decoration: none; /* Remove o sublinhado do link */
-  border-radius: 5px; /* Bordas arredondadas */
-  font-size: 16px;
-  font-weight: bold;
-  transition: background-color 0.3s ease; /* Transição suave para o efeito de hover */
+.button-comprar {
+  position: absolute;
+  z-index: 2; 
+  bottom: 15vh; 
+  left: 50%; 
+  transform: translateX(-50%); 
+  font-size: 1.2rem;
+  padding: 20px 40px;
 }
 
 .carousel-link-button:hover {
-  background-color: #0056b3; /* Cor de fundo ao passar o mouse */
+  background-color: #0056b3;
 }

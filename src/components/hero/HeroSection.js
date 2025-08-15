@@ -10,6 +10,7 @@ import torta_pote from "./../../assets/torta_pote.jpg";
 import torta_suspiro from "./../../assets/torta_suspiro.jpg";
 import "./HeroSection.css";
 import { Button } from "@chakra-ui/react";
+import { FaShoppingCart } from 'react-icons/fa';
 
 function HeroSection() {
   const imagens = [cafe, capuccino, mousse, ovomaltine, pedaco_chocolate, torta_pote, torta_suspiro];
@@ -33,7 +34,7 @@ function HeroSection() {
         />
         <div className="carrossel-overlay"></div>
       </div>
-    <Button as={"a"} href="https://kehtorta.goomer.app/" size="md">COMPRE AGORA!</Button>
+    <Button as={"a"} className="button-comprar" href="https://kehtorta.goomer.app/" size="lg" colorScheme="orange" leftIcon={<FaShoppingCart />}>COMPRE AGORA!</Button>
     </section>
   );
 }

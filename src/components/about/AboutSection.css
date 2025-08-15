@@ -20,22 +20,28 @@
 .perfil-e-contatos {
   flex: 0 0 auto;
   display: flex;
-  flex-direction: row; /* Alterado de 'column' para 'row' */
-  align-items: center; /* Alinha os itens verticalmente no centro */
+  flex-direction: row; 
+  align-items: center; 
   gap: 20px;
 }
 
 .foto-perfil {
   width: 200px;
   height: 200px;
-  background-color: #ddd; /* Apenas para visualização */
   border-radius: 50%;
+  overflow: hidden;
+}
+
+.perfil-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .contatos ul {
   list-style: none;
   padding: 0;
-  text-align: left; /* Alinhamos o texto à esquerda para que a lista fique organizada */
+  text-align: left; 
 }
 
 .contatos ul li {
