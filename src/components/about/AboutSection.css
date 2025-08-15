@@ -1,0 +1,48 @@
+/* src/components/AboutSection/AboutSection.css */
+
+.about-section {
+  padding: 40px;
+}
+
+.conteudo-principal {
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.introducao {
+  flex: 1;
+  max-width: 50vw;
+}
+
+.perfil-e-contatos {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: row; /* Alterado de 'column' para 'row' */
+  align-items: center; /* Alinha os itens verticalmente no centro */
+  gap: 20px;
+}
+
+.foto-perfil {
+  width: 200px;
+  height: 200px;
+  background-color: #ddd; /* Apenas para visualização */
+  border-radius: 50%;
+}
+
+.contatos ul {
+  list-style: none;
+  padding: 0;
+  text-align: left; /* Alinhamos o texto à esquerda para que a lista fique organizada */
+}
+
+.contatos ul li {
+  margin-bottom: 10px;
+}
+
+.contatos a {
+  text-decoration: none;
+  color: #007bff;
+}
