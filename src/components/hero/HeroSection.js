@@ -33,7 +33,7 @@ function HeroSection() {
         />
         <div className="carrossel-overlay"></div>
       </div>
-    <a href="https://kehtorta.goomer.app" class="comprar-button" target="_blank" rel="noopener noreferrer">COMPRE AGORA!</a>
+    <Button as={"a"} href="https://kehtorta.goomer.app/" size="md">COMPRE AGORA!</Button>
     </section>
   );
 }
