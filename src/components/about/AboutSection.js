@@ -4,6 +4,7 @@ import './AboutSection.css';
 import perfil from "./../../assets/perfil.jpg";
 import { Stack, Text } from '@chakra-ui/react';
 import { FaInstagram, FaWhatsapp } from 'react-icons/fa';
+import DrippingChocolate from '../Icons/Chocolate';
 
 function AboutSection() {
   return (
@@ -15,7 +16,9 @@ function AboutSection() {
           <p>Não deixe de fazer o seu pedido hoje!</p>
         </div>
         <div className="perfil-e-contatos">
-          
+          <div className="svg-container">
+            <DrippingChocolate />
+          </div>  
           <div className="contatos">
             <h3><strong>Contatos / Redes Sociais</strong></h3>
             <ul>

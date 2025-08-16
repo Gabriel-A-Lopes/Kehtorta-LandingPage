@@ -1,7 +1,7 @@
 /* src/components/AboutSection/AboutSection.css */
 
 .about-section {
-  padding: 40px;
+  padding-top: 20px;
 }
 
 .conteudo-principal {
@@ -11,22 +11,23 @@
   align-items: flex-start;
   gap: 40px;
 }
-
+.introducao {
+  background-color: rgba(250, 235, 215, 0.65);
+  border-radius: 9px;
+  padding: 15px;
+}
 .introducao h2 {
   font-family: 'cofo sans', sans-serif;
-  font-size: 2.5rem;
+  font-size: 2.0rem;
   font-weight: 600;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 }
 
 .introducao p {
   font-family: 'Times New Roman', Times, serif;
-  font-size: 1.4rem;
-  line-height: 1.6;
+  font-size: 1.2rem;
+  line-height: 1.7;
   max-width: 50vw;
-  background-color: antiquewhite;
-  border-radius: 25px;
-  padding: 15px;
 }
 
 .perfil-e-contatos {
@@ -35,12 +36,15 @@
   flex-direction: row; 
   align-items: center; 
   gap: 35px;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
+  background-color: rgba(250, 235, 215, 0.65);
+  border-radius: 9px;
+  padding: 15px;
 }
 
 .foto-perfil {
-  width: 300px;
-  height: 300px;
+  width: 240px;
+  height: 240px;
   border-radius: 50%;
   overflow: hidden;
 }
@@ -64,5 +68,18 @@
 .contatos a {
   text-decoration: none;
   color: #007bff;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
+}
+
+.svg-container {
+  position: absolute;
+  top: 545px; 
+  right: 450px; 
+  width: 150px; 
+  height: auto;
+  z-index: 1; 
+}
+
+.svg-container svg path {
+  fill: #5c4221; 
 }
