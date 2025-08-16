@@ -1,3 +1,5 @@
+// ./src/components/about/AboutSection.js
+
 import './AboutSection.css';
 import perfil from "./../../assets/perfil.jpg";
 import { Stack, Text } from '@chakra-ui/react';
