@@ -2,7 +2,6 @@ import './App.css';
 import HeroSection from './components/hero/HeroSection';
 import AboutSection from './components/about/AboutSection';
 import Separator from './components/separator/SeparatorSection.js';
-import { ChakraProvider } from '@chakra-ui/react';
 
 function App() {
   return (
