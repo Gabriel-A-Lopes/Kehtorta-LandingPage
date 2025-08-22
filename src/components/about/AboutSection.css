@@ -40,7 +40,7 @@
   background-color: rgba(250, 235, 215, 0.65);
   border-radius: 9px;
   padding: 15px;
-  padding-left: 35px;
+  padding-left: 30px;
 }
 
 .foto-perfil {
@@ -74,11 +74,11 @@
 
 .svg-container {
   position: absolute;
-  top: 545px; 
-  right: 450px; 
+  top: 53.8vh; 
+  right: 24vw; 
   width: 150px; 
   height: auto;
-  z-index: 1; 
+  z-index: 0; 
 }
 
 .svg-container svg path {

@@ -1,7 +1,7 @@
 /* ./src/components/separator/SeparatorSection.css */
 
 .separator {
-  height: 45px;
+  height: 15px;
   box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.1); 
   background-color: #5c4221; 
 }

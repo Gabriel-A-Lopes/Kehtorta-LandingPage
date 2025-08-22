@@ -35,7 +35,7 @@ function HeroSection() {
         />
         <div className="carrossel-overlay"></div>
       </div>
-    <Button as={"a"} className="button-comprar" href="https://kehtorta.goomer.app/" size="x-lg" colorScheme="orange" leftIcon={<FaShoppingCart />}>FAÇA O SEU PEDIDO!</Button>
+    <Button as={"a"} className="button-comprar" href="https://kehtorta.goomer.app/" size="x-lg" colorScheme="orange" leftIcon={<FaShoppingCart />}>CONHEÇA AS OPÇÔES!</Button>
     </section>
   );
 }
