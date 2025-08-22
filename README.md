@@ -1,4 +1,4 @@
-# Kehtorta - tortas artesanais
+# 🥧 Kehtorta - tortas artesanais
 
 This project was idealized for a family business, providing an online presence via a personalized landing page!
 
