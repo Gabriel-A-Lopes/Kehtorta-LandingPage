@@ -20,5 +20,7 @@ Coding/styling
 Gabriel A. Lopes
 
 Conect with me!
-*[Github](https://github.com/Gabriel-A-Lopes)
-*[LinkedIn](https://www.linkedin.com/in/gabriel-amaro-lopes-541a9519b/)
+
+[Github](https://github.com/Gabriel-A-Lopes)
+
+[LinkedIn](https://www.linkedin.com/in/gabriel-amaro-lopes-541a9519b/)
