@@ -77,7 +77,7 @@
 
 .svg-container {
   position: absolute;
-  top: 53.7vh; 
+  top: 53.9vh; 
   right: 24vw; 
   width: 140px; 
   height: auto;
@@ -194,7 +194,7 @@
 
   .svg-container {
     position: absolute;
-    top: 53.7vh;  
+    top: 53.3vh;  
     width: 140px; 
     height: auto;
     z-index: 1; 
@@ -252,7 +252,7 @@
 
   .svg-container {
     position: absolute;
-    top: 53.7vh;  
+    top: 52.7vh;  
     width: 140px; 
     height: auto;
     z-index: 1; 
